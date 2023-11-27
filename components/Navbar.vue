@@ -18,12 +18,17 @@
         About Us
       </button>
     </div>
-    <div class="flex h-16 w-40 justify-around gap-3">
-      <button class="font-bold">Login</button>
+    <div class="flex h-16 w-60 justify-around gap-2">
+      <!-- Adjusted width and gap -->
       <button
         class="h-8 w-28 bg-[#646b75] hover:bg-[#464e5b] rounded-full self-center font-bold"
       >
         <NuxtLink to="/register"> Register </NuxtLink>
+      </button>
+      <button
+        class="h-8 w-28 bg-[#646b75] hover:bg-[#464e5b] rounded-full self-center font-bold"
+      >
+        <NuxtLink to="/login"> Login </NuxtLink>
       </button>
     </div>
   </div>

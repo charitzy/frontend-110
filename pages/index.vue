@@ -25,6 +25,7 @@
           class="h-10 w-32 rounded-full bg-[#464e5b] hover:bg-[#a1a6ab] hover:font-bold"
         >
           <NuxtLink to="/register" />
+
           Explore Shop
         </button>
       </div>

@@ -8,7 +8,7 @@ export default {
   setup() {
     // Destructure the response from useFetch
     const { data: csrf_token } = useFetch(
-      "https://e3d2-143-44-193-32.ngrok-free.app/hay/public/api/csrf-token"
+      "https://9841-216-247-59-204.ngrok-free.app/it110/public/api/csrf-token"
     );
 
     // Return the csrf_token

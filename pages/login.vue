@@ -52,7 +52,7 @@ const loginData = ref({ email: "", password: "" });
 const submitLogin = async () => {
   try {
     const response = await fetch(
-      "https://e3d2-143-44-193-32.ngrok-free.app/hay/public/api/login",
+      "https://9841-216-247-59-204.ngrok-free.app/it110/public/api/login",
       {
         method: "POST",
         headers: {
@@ -74,7 +74,10 @@ const submitLogin = async () => {
     }
 
     const responseData = await response.json();
+    console.log("Login response data:", responseData);
+    localStorage.setItem("userToken", responseData.token);
     console.log("Login successful:", responseData);
+    localStorage.setItem("userId", responseData.user.id);
 
     // Redirect to another page or handle login success
     router.push("/dashboard");

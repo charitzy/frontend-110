@@ -71,7 +71,7 @@ const submitForm = async () => {
 
   try {
     const response = await fetch(
-      "https://e3d2-143-44-193-32.ngrok-free.app/hay/public/api/register",
+      "https://9841-216-247-59-204.ngrok-free.app/it110/public/api/register",
       {
         method: "POST",
         headers: {
